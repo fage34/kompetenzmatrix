@@ -273,3 +273,48 @@ a:hover {
 #sidebar ul.topics .dd-item.open > .dd-toggle i {
     transform: rotate(90deg);
 }
+
+/* Immer sichtbarer "Bearbeiten"-Button (CMS) */
+.edit-fab {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 18px;
+    background: var(--MAIN-LINK-color);
+    color: #fff !important;
+    font-weight: 600;
+    border-radius: 999px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.28);
+    text-decoration: none !important;
+    transition: background 0.15s ease, transform 0.15s ease;
+}
+.edit-fab:hover {
+    background: var(--MAIN-LINK-HOVER-color);
+    color: #fff !important;
+    transform: translateY(-2px);
+}
+.edit-fab i { font-size: 0.9rem; }
+@media (max-width: 48em) {
+    .edit-fab span { display: none; } /* mobil nur Icon */
+    .edit-fab { padding: 14px; }
+}
+
+/* Bearbeiten-Link im Sidebar-Footer */
+#sidebar .sidebar-edit-link {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 6px 12px;
+    background: rgba(255,255,255,0.15);
+    border-radius: 4px;
+    color: #fff !important;
+    font-weight: 600;
+    text-decoration: none !important;
+}
+#sidebar .sidebar-edit-link:hover {
+    background: var(--MAIN-LINK-HOVER-color);
+    color: #fff !important;
+}
