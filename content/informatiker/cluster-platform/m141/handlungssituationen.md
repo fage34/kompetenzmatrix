@@ -1,4 +1,6 @@
 ---
+aliases:
+  - /cluster-platform/m141/handlungssituationen/
 title: Handlungssituationen
 weight: 20
 draft: false

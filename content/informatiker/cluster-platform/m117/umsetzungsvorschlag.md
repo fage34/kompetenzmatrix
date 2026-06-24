@@ -1,4 +1,6 @@
 ---
+aliases:
+  - /cluster-platform/m117/umsetzungsvorschlag/
 title: Umsetzungsvorschlag
 weight: 10
 draft: false

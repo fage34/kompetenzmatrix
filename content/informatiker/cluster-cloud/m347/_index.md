@@ -1,4 +1,6 @@
 ---
+aliases:
+  - /cluster-cloud/m347/
 title: M347 Dienst mit Container anwenden
 modul: m347
 cluster: cluster-cloud

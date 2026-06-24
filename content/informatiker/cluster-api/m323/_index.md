@@ -1,4 +1,6 @@
 ---
+aliases:
+  - /cluster-api/m323/
 title: M323 Funktional Programmieren
 modul: m323
 cluster: cluster-api

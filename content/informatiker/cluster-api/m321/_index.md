@@ -1,4 +1,6 @@
 ---
+aliases:
+  - /cluster-api/m321/
 title: M321 Verteilte Systeme programmieren
 modul: m321
 cluster: cluster-api

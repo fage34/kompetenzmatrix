@@ -1,4 +1,6 @@
 ---
+aliases:
+  - /cluster-platform/m123/
 title: M123 Serverdienste in Betrieb nehmen
 modul: m123
 cluster: cluster-platform

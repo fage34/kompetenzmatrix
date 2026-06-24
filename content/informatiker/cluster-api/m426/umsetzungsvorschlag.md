@@ -1,4 +1,6 @@
 ---
+aliases:
+  - /cluster-api/m426/umsetzungsvorschlag/
 title: Umsetzungsvorschlag
 weight: 10
 draft: false

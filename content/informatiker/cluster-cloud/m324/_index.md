@@ -1,4 +1,6 @@
 ---
+aliases:
+  - /cluster-cloud/m324/
 title: M324 DevOps-Prozesse mit Tools unterstützen
 modul: m324
 cluster: cluster-cloud

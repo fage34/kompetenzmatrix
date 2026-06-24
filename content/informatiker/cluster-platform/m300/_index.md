@@ -1,4 +1,6 @@
 ---
+aliases:
+  - /cluster-platform/m300/
 title: M300 Plattformübergreifende Dienste in ein Netzwerk integrieren
 modul: m300
 cluster: cluster-platform

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - /clusteraufbau/
 title: Aufbau in Clustern
 ---
 

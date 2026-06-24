@@ -1,4 +1,6 @@
 ---
+aliases:
+  - /cluster-api/m319/
 title: M319 Applikationen entwerfen und implementieren
 modul: m319
 cluster: cluster-api

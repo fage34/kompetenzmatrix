@@ -1,4 +1,6 @@
 ---
+aliases:
+  - /cluster-cloud/m324/umsetzungsvorschlag/
 title: Umsetzungsvorschlag
 weight: 10
 draft: false

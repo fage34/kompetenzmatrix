@@ -1,4 +1,6 @@
 ---
+aliases:
+  - /cluster-cloud/
 title: "Cluster Cloud Computing"
 draft: false
 weight: 13

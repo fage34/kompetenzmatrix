@@ -1,4 +1,6 @@
 ---
+aliases:
+  - /cluster-org/m241/
 title: M241 Innovative ICT-Lösungen initialisieren
 modul: m241
 cluster: cluster-org

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - /cluster-org/m158/umsetzungsvorschlag/
 title: Umsetzungsvorschlag
 weight: 10
 draft: false

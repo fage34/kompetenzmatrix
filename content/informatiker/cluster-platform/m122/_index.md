@@ -1,4 +1,6 @@
 ---
+aliases:
+  - /cluster-platform/m122/
 title: M122 Abläufe mit einer Scriptsprache automatisieren
 modul: m122
 cluster: cluster-platform

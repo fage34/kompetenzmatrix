@@ -1,4 +1,6 @@
 ---
+aliases:
+  - /cluster-platform/m143/
 title: M143 Backup- und Restore-Systeme implementieren
 modul: m143
 cluster: cluster-platform

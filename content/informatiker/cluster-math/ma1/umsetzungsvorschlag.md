@@ -1,4 +1,6 @@
 ---
+aliases:
+  - /cluster-math/ma1/umsetzungsvorschlag/
 title: Umsetzungsvorschlag
 weight: 10
 draft: false

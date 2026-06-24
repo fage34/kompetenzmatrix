@@ -1,4 +1,6 @@
 ---
+aliases:
+  - /cluster-platform/m145/
 title: M145 Netzwerk betreiben und erweitern
 modul: m145
 cluster: cluster-platform

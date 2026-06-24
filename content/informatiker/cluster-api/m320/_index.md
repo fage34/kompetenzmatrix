@@ -1,4 +1,6 @@
 ---
+aliases:
+  - /cluster-api/m320/
 title: M320 Objektorientiert Programmieren
 modul: m320
 cluster: cluster-api

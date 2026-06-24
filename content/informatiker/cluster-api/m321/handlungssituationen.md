@@ -1,4 +1,6 @@
 ---
+aliases:
+  - /cluster-api/m321/handlungssituationen/
 title: Handlungssituationen
 weight: 20
 draft: false

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - /cluster-math/ma4/
 title: MA4
 modul: ma4
 cluster: cluster-math

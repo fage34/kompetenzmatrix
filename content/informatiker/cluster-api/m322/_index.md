@@ -1,4 +1,6 @@
 ---
+aliases:
+  - /cluster-api/m322/
 title: M322 Benutzerschnittstellen entwerfen und implementieren
 modul: m322
 cluster: cluster-api

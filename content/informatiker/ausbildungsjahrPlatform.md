@@ -1,4 +1,5 @@
 +++
+aliases = ["/ausbildungsjahrplatform/"]
 title = "Nach Ausbildungsjahr Platformentwickler"
 date = "2021-04-12"
 +++

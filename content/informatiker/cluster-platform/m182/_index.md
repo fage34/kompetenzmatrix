@@ -1,4 +1,6 @@
 ---
+aliases:
+  - /cluster-platform/m182/
 title: M182 Systemsicherheit implementieren
 modul: m182
 cluster: cluster-platform

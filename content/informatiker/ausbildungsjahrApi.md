@@ -1,4 +1,5 @@
 +++
+aliases = ["/ausbildungsjahrapi/"]
 title = "Nach Ausbildungsjahr Applikationsentwickler"
 date = "2021-04-12"
 +++

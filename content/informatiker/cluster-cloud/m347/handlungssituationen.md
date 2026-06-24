@@ -1,4 +1,6 @@
 ---
+aliases:
+  - /cluster-cloud/m347/handlungssituationen/
 title: Handlungssituationen
 weight: 20
 draft: false

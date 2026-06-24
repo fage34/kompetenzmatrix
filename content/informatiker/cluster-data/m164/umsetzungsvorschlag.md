@@ -1,4 +1,6 @@
 ---
+aliases:
+  - /cluster-data/m164/umsetzungsvorschlag/
 title: Umsetzungsvorschlag
 weight: 10
 draft: false

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - /cluster-org/m241/handlungssituationen/
 title: Handlungssituationen
 weight: 20
 draft: false

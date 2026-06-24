@@ -1,4 +1,6 @@
 ---
+aliases:
+  - /cluster-cloud/m346/
 title: M346 Cloudlösungen konzipieren und realisieren
 modul: m346
 cluster: cluster-cloud
