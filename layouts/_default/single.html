@@ -4,6 +4,8 @@
   {{ partial "matrix.html" $ }}
 {{ end }}
 
+{{ .Content }}
+
 {{ with .Pages }}
 <div class="modul-subpages">
   <ul>
@@ -13,8 +15,6 @@
   </ul>
 </div>
 {{ end }}
-
-{{ .Content }}
 
 <footer class="footline">
 	{{with .Params.LastModifierDisplayName}}
