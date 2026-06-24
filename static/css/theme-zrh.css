@@ -274,17 +274,23 @@ a:hover {
     transform: rotate(90deg);
 }
 
-/* Immer sichtbarer "Bearbeiten"-Button (CMS) */
-.edit-fab {
+/* Immer sichtbare Aktions-Buttons (CMS + Repo) */
+.fab-group {
     position: fixed;
     bottom: 20px;
     right: 20px;
     z-index: 1000;
     display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-end;
+}
+.edit-fab,
+.repo-fab {
+    display: flex;
     align-items: center;
     gap: 8px;
     padding: 12px 18px;
-    background: var(--MAIN-LINK-color);
     color: #fff !important;
     font-weight: 600;
     border-radius: 999px;
@@ -292,15 +298,22 @@ a:hover {
     text-decoration: none !important;
     transition: background 0.15s ease, transform 0.15s ease;
 }
-.edit-fab:hover {
-    background: var(--MAIN-LINK-HOVER-color);
+.edit-fab { background: var(--MAIN-LINK-color); }
+.edit-fab:hover { background: var(--MAIN-LINK-HOVER-color); }
+.repo-fab { background: #24292f; }
+.repo-fab:hover { background: #3a4048; }
+.edit-fab:hover,
+.repo-fab:hover {
     color: #fff !important;
     transform: translateY(-2px);
 }
-.edit-fab i { font-size: 0.9rem; }
+.edit-fab i,
+.repo-fab i { font-size: 0.95rem; }
 @media (max-width: 48em) {
-    .edit-fab span { display: none; } /* mobil nur Icon */
-    .edit-fab { padding: 14px; }
+    .edit-fab span,
+    .repo-fab span { display: none; } /* mobil nur Icon */
+    .edit-fab,
+    .repo-fab { padding: 14px; }
 }
 
 /* Bearbeiten-Link im Sidebar-Footer */
