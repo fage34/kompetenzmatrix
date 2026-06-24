@@ -41,6 +41,8 @@ hugo server
 ## Beitragen
 
 Siehe [CONTRIBUTING.md](CONTRIBUTING.md) — Editieren via CMS oder PR, inkl. EHB-Inhaltsregeln.
+Den vollständigen Ablauf (Bearbeiten → CI → Deploy) zeigt
+[docs/matrix-bearbeiten.md](docs/matrix-bearbeiten.md).
 
 ## Setup-Hinweise (einmalig)
 
