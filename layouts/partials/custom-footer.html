@@ -12,7 +12,7 @@
 <!-- Immer sichtbare Aktionen: CMS bearbeiten + Repo -->
 {{- $editURL := "/admin/" -}}
 {{- if and .Params.modul .Params.cluster -}}
-  {{- $editURL = printf "/admin/#/collections/%s/entries/%s/_index" .Params.cluster .Params.modul -}}
+  {{- $editURL = printf "/admin/#/collections/%s/entries/%s" .Params.cluster .Params.modul -}}
 {{- end -}}
 <div class="fab-group">
   <a class="edit-fab" href="{{ $editURL }}" title="Diese Seite im CMS bearbeiten">

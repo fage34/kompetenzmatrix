@@ -22,6 +22,7 @@ collections:
     label_singular: "Modul"
     folder: content/informatiker/cluster-api
     path: "{{fields.modul}}/_index"
+    slug: "{{fields.modul}}"
     extension: md
     format: yaml-frontmatter
     create: true
@@ -58,6 +59,7 @@ collections:
     label_singular: "Modul"
     folder: content/informatiker/cluster-cloud
     path: "{{fields.modul}}/_index"
+    slug: "{{fields.modul}}"
     extension: md
     format: yaml-frontmatter
     create: true
@@ -69,6 +71,7 @@ collections:
     label_singular: "Modul"
     folder: content/informatiker/cluster-data
     path: "{{fields.modul}}/_index"
+    slug: "{{fields.modul}}"
     extension: md
     format: yaml-frontmatter
     create: true
@@ -80,6 +83,7 @@ collections:
     label_singular: "Modul"
     folder: content/informatiker/cluster-math
     path: "{{fields.modul}}/_index"
+    slug: "{{fields.modul}}"
     extension: md
     format: yaml-frontmatter
     create: true
@@ -91,6 +95,7 @@ collections:
     label_singular: "Modul"
     folder: content/informatiker/cluster-org
     path: "{{fields.modul}}/_index"
+    slug: "{{fields.modul}}"
     extension: md
     format: yaml-frontmatter
     create: true
@@ -102,6 +107,7 @@ collections:
     label_singular: "Modul"
     folder: content/informatiker/cluster-platform
     path: "{{fields.modul}}/_index"
+    slug: "{{fields.modul}}"
     extension: md
     format: yaml-frontmatter
     create: true
