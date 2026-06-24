@@ -7,12 +7,15 @@ Dieses Repo ist das **Arbeitsrepo** für die Kompetenzmatrizen der ICT-Module (B
 ## Wie bearbeiten?
 
 ### Variante A — Web-Editor (empfohlen für Lehrpersonen)
-1. `https://kompetenzmatrix.ch/admin/` öffnen und mit GitHub anmelden.
+Du brauchst **nur einen GitHub-Account** — keine Freischaltung, keine Schreibrechte.
+1. `https://kompetenzmatrix.ch/admin/` öffnen, mit GitHub anmelden.
 2. Cluster → Modul wählen, Felder ausfüllen (Formular, keine Tabellen-Syntax nötig).
-3. Speichern → es entsteht automatisch ein Pull Request. Eine zweite Person reviewt und merged.
+3. Speichern → der Editor legt automatisch einen **Fork** an und öffnet einen **Pull Request**
+   (Open Authoring). Eine berechtigte Person reviewt und merged → wird automatisch publiziert.
 
 ### Variante B — direkt im Repo (für Git-erfahrene)
-Branch erstellen, YAML bearbeiten, PR öffnen.
+Modul forken / Branch erstellen, `content/<cluster>/<modul>/_index.md` bearbeiten, PR öffnen.
+Tipp: Taste `.` im GitHub-Repo öffnet einen Browser-Editor (github.dev).
 
 ## Aufbau eines Moduls
 

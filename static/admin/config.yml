@@ -2,14 +2,16 @@ backend:
   name: github
   repo: kompetenzmatrix/kompetenzmatrix
   branch: main
-  # Sveltia needs a GitHub OAuth app + a small auth relay. Deploy the free
-  # `sveltia-cms-auth` Cloudflare Worker (or host on it.bzz.ch) and set its URL here:
-  base_url: https://CHANGEME-sveltia-auth.example.workers.dev
+  # Self-hosted OAuth relay on it.bzz.ch (PHP). No Cloudflare/Netlify account needed.
+  base_url: https://it.bzz.ch
+  auth_endpoint: /cms-oauth/auth
 
-# Changes are committed to a working branch and opened as a Pull Request (review before publish).
+# Open authoring: any GitHub user logs in, the CMS forks the repo for them and
+# opens a Pull Request from their fork. No collaborator access / account management.
+open_authoring: true
+auth_scope: public_repo
 publish_mode: editorial_workflow
 
-# Locale / UI
 locale: de
 media_folder: static/images
 public_folder: /images
@@ -45,7 +47,7 @@ collections:
             summary: "Nr {{fields.nr}} (HZ {{fields.hz}})"
             fields:
               - { label: "Nr", name: nr, widget: number, value_type: int, min: 1 }
-              - { label: "Handlungsziele (HZ)", name: hz, widget: string, hint: "z.B. 1, 2" }
+              - { label: "Handlungsziele (HZ)", name: hz, widget: string, required: false, hint: "z.B. 1, 2" }
               - { label: "Grundlagen", name: grundlagen, widget: text, pattern: ['^Ich kann', 'Muss mit „Ich kann" beginnen'] }
               - { label: "Fortgeschritten", name: fortgeschritten, widget: text, pattern: ['^Ich kann', 'Muss mit „Ich kann" beginnen'] }
               - { label: "Erweitert", name: erweitert, widget: text, pattern: ['^Ich kann', 'Muss mit „Ich kann" beginnen'] }
@@ -105,18 +107,3 @@ collections:
     create: true
     identifier_field: title
     fields: *modulfelder
-
-  # Per-module supplementary pages (lesson plan / action situations)
-  - name: zusatzseiten
-    label: "Zusatzseiten (Umsetzung / Handlungssituationen)"
-    label_singular: "Seite"
-    folder: content
-    extension: md
-    format: yaml-frontmatter
-    create: false
-    nested: { depth: 4 }
-    identifier_field: title
-    fields:
-      - { label: "Titel", name: title, widget: string }
-      - { label: "Reihenfolge", name: weight, widget: number, value_type: int, required: false }
-      - { label: "Inhalt", name: body, widget: markdown }

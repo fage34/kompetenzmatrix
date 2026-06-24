@@ -3,7 +3,7 @@
 Öffentlich zugängliche Kompetenzmatrizen des Projekts **Modulentwicklung ZH** für die ICT-Module
 der Fachrichtungen Applikationsentwicklung und Plattformentwicklung nach **BiVo2021**.
 
-Live: **https://kompetenzmatrix.ch** · Bearbeiten: **/admin/** (Sveltia CMS)
+Live: **https://kompetenzmatrix.ch** · Bearbeiten: **/admin/** (Decap CMS)
 
 ## Was ist das hier?
 
@@ -16,7 +16,7 @@ content/<cluster>/<modul>/
   umsetzungsvorschlag.md   # Lektionsplanung
   handlungssituationen.md  # Handlungssituationen
 layouts/                   # Matrix-Rendering (partials/matrix.html) + Navigation
-static/admin/              # Sveltia CMS (Web-Editor)
+static/admin/              # Decap CMS (Web-Editor)
 schema/                    # JSON-Schema der Moduldaten
 scripts/validate_modules.py# CI-Validierung (EHB-Regeln)
 .github/workflows/         # validate.yml (PR) + deploy.yml (rsync nach it.bzz.ch)
@@ -44,5 +44,9 @@ Siehe [CONTRIBUTING.md](CONTRIBUTING.md) — Editieren via CMS oder PR, inkl. EH
 
 ## Setup-Hinweise (einmalig)
 
-- **CMS-Auth**: GitHub-OAuth-App + `sveltia-cms-auth`-Relay; URL in `static/admin/config.yml` (`base_url`) eintragen.
+- **CMS-Auth** (Open Authoring): selbst-gehostetes PHP-Relay auf dem Server unter
+  `https://kompetenzmatrix.ch/cms-oauth` (Code: `/var/www/kompetenzmatrix.ch/cms-oauth/index.php`).
+  GitHub-OAuth-App erstellen (Callback `https://kompetenzmatrix.ch/cms-oauth/callback`),
+  `client_id`/`client_secret` in `/etc/cms-oauth-config.php` eintragen. `base_url` steht in
+  `static/admin/config.yml`. Das Relay ist via `rsync --exclude=cms-oauth/` vor Deploys geschützt.
 - **Deploy-Secrets**: `DEPLOY_SSH_KEY` (Secret) + `DEPLOY_PATH` (Variable) für `root@it.bzz.ch`.
