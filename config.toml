@@ -21,17 +21,17 @@ disableLandingPageButton = false
 
 [[menu.shortcuts]]
 name = "Nach Ausbildungsjahr Applikationsentwicklung"
-url = "/ausbildungsjahrapi"
+url = "/informatiker/ausbildungsjahrapi"
 weight = 11
 
 [[menu.shortcuts]]
 name = "Nach Ausbildungsjahr Plattformentwicklung"
-url = "/ausbildungsjahrplatform"
+url = "/informatiker/ausbildungsjahrplatform"
 weight = 12
 
 [[menu.shortcuts]]
 name = "Clusteraufbau"
-url = "/clusteraufbau"
+url = "/informatiker/clusteraufbau"
 weight = 13
 
 [params]
