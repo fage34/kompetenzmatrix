@@ -3,7 +3,7 @@ aliases:
   - /cluster-platform/
   - /v2/cluster-platform/
 title: "Cluster Plattformentwicklung"
-date: 2017-10-17T15:26:15Z
+date: "2017-10-17T15:26:15Z"
 draft: false
 weight: 11
 ---

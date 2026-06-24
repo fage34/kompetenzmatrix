@@ -3,7 +3,7 @@ aliases:
   - /cluster-data/
   - /v2/cluster-data/
 title: "Cluster Daten und Datenhaltung"
-date: 2021-04-12T08:04:26Z
+date: "2021-04-12T08:04:26Z"
 draft: false
 weight: 12
 ---

@@ -5,7 +5,7 @@ aliases:
 title: M143 Backup- und Restore-Systeme implementieren
 modul: m143
 cluster: cluster-platform
-date: 2025-07-02T10:06:42Z
+date: "2025-07-02T10:06:42Z"
 draft: false
 kompetenzbaender:
   - id: A

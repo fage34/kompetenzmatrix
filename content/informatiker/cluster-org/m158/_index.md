@@ -5,7 +5,7 @@ aliases:
 title: M158 Software-Migration planen und durchführen
 modul: m158
 cluster: cluster-org
-date: 2025-07-02T10:06:07Z
+date: "2025-07-02T10:06:07Z"
 draft: false
 kompetenzbaender:
   - id: A

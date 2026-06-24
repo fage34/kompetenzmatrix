@@ -5,7 +5,7 @@ aliases:
 title: M450 Applikationen testen
 modul: m450
 cluster: cluster-api
-date: 2025-07-02T10:05:01Z
+date: "2025-07-02T10:05:01Z"
 draft: false
 kompetenzbaender:
   - id: A

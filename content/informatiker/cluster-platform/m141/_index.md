@@ -5,7 +5,7 @@ aliases:
 title: M141 Datenbanksystem in Betrieb nehmen
 modul: m141
 cluster: cluster-platform
-date: 2025-07-02T10:06:43Z
+date: "2025-07-02T10:06:43Z"
 draft: false
 kompetenzbaender:
   - id: A

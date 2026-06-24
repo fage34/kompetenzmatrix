@@ -5,7 +5,7 @@ aliases:
 title: M431 Aufträge im eigenen Berufsumfeld selbstständig durchführen
 modul: m431
 cluster: cluster-org
-date: 2025-07-02T10:06:12Z
+date: "2025-07-02T10:06:12Z"
 draft: false
 kompetenzbaender:
   - id: A

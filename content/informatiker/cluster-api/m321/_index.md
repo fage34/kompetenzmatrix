@@ -5,7 +5,7 @@ aliases:
 title: M321 Verteilte Systeme programmieren
 modul: m321
 cluster: cluster-api
-date: 2025-07-02T10:05:00Z
+date: "2025-07-02T10:05:00Z"
 draft: false
 kompetenzbaender:
   - id: A

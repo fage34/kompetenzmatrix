@@ -5,7 +5,7 @@ aliases:
 title: M300 Plattformübergreifende Dienste in ein Netzwerk integrieren
 modul: m300
 cluster: cluster-platform
-date: 2025-07-02T10:06:38Z
+date: "2025-07-02T10:06:38Z"
 draft: false
 kompetenzbaender:
   - id: A

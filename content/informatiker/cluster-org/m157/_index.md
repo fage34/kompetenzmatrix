@@ -5,7 +5,7 @@ aliases:
 title: M157 IT-System-Einführung planen und durchführen
 modul: m157
 cluster: cluster-org
-date: 2025-07-02T10:41:24Z
+date: "2025-07-02T10:41:24Z"
 draft: false
 kompetenzbaender:
   - id: A

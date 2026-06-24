@@ -5,7 +5,7 @@ aliases:
 title: M122 Abläufe mit einer Scriptsprache automatisieren
 modul: m122
 cluster: cluster-platform
-date: 2025-07-02T10:06:45Z
+date: "2025-07-02T10:06:45Z"
 draft: false
 kompetenzbaender:
   - id: A

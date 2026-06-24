@@ -5,7 +5,7 @@ aliases:
 title: M241 Innovative ICT-Lösungen initialisieren
 modul: m241
 cluster: cluster-org
-date: 2025-07-02T10:06:04Z
+date: "2025-07-02T10:06:04Z"
 draft: false
 kompetenzbaender:
   - id: A

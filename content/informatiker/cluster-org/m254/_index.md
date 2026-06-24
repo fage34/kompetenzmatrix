@@ -5,7 +5,7 @@ aliases:
 title: M254 Geschäftsprozesse im eigenen Berufsumfeld beschreiben
 modul: m254
 cluster: cluster-org
-date: 2025-07-02T10:06:11Z
+date: "2025-07-02T10:06:11Z"
 draft: false
 kompetenzbaender:
   - id: A

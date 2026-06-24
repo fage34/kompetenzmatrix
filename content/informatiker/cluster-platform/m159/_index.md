@@ -5,7 +5,7 @@ aliases:
 title: M159 Directoryservices konfigurieren und in Betrieb nehmen
 modul: m159
 cluster: cluster-platform
-date: 2025-07-02T10:06:32Z
+date: "2025-07-02T10:06:32Z"
 draft: false
 kompetenzbaender:
   - id: A

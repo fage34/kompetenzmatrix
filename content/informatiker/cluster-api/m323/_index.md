@@ -5,7 +5,7 @@ aliases:
 title: M323 Funktional Programmieren
 modul: m323
 cluster: cluster-api
-date: 2025-07-02T10:05:03Z
+date: "2025-07-02T10:05:03Z"
 draft: false
 kompetenzbaender:
   - id: A

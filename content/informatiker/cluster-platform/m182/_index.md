@@ -5,7 +5,7 @@ aliases:
 title: M182 Systemsicherheit implementieren
 modul: m182
 cluster: cluster-platform
-date: 2025-07-02T10:41:27Z
+date: "2025-07-02T10:41:27Z"
 draft: false
 kompetenzbaender:
   - id: A

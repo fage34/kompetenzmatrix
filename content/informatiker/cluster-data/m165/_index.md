@@ -5,7 +5,7 @@ aliases:
 title: M165 NoSQL-Datenbanken einsetzen
 modul: m165
 cluster: cluster-data
-date: 2025-07-02T10:05:20Z
+date: "2025-07-02T10:05:20Z"
 draft: false
 kompetenzbaender:
   - id: A

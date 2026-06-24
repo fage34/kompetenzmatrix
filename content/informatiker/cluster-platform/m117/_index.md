@@ -5,7 +5,7 @@ aliases:
 title: M117 Informatik- und Netzinfrastruktur für ein kleines Unternehmen realisieren
 modul: m117
 cluster: cluster-platform
-date: 2025-07-02T10:06:48Z
+date: "2025-07-02T10:06:48Z"
 draft: false
 kompetenzbaender:
   - id: A

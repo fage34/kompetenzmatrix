@@ -5,7 +5,7 @@ aliases:
 title: M183 Applikationssicherheit implementieren
 modul: m183
 cluster: cluster-api
-date: 2025-07-02T10:04:59Z
+date: "2025-07-02T10:04:59Z"
 draft: false
 kompetenzbaender:
   - id: A

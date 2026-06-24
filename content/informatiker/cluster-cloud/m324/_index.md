@@ -5,7 +5,7 @@ aliases:
 title: M324 DevOps-Prozesse mit Tools unterstützen
 modul: m324
 cluster: cluster-cloud
-date: 2025-07-02T10:05:16Z
+date: "2025-07-02T10:05:16Z"
 draft: false
 kompetenzbaender:
   - id: A

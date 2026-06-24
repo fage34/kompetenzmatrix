@@ -5,7 +5,7 @@ aliases:
 title: M114 Codierungs- Kompressions- und Verschlüsselungsverfahren einsetzen
 modul: m114
 cluster: cluster-data
-date: 2025-07-02T10:05:51Z
+date: "2025-07-02T10:05:51Z"
 draft: false
 kompetenzbaender:
   - id: A

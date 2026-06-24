@@ -5,7 +5,7 @@ aliases:
 title: M169 Dienste mit Containern bereitstellen
 modul: m169
 cluster: cluster-cloud
-date: 2025-07-02T10:05:17Z
+date: "2025-07-02T10:05:17Z"
 draft: false
 kompetenzbaender:
   - id: A

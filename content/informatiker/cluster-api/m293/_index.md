@@ -5,7 +5,7 @@ aliases:
 title: M293 Webauftritt erstellen und veröffentlichen
 modul: m293
 cluster: cluster-api
-date: 2025-07-02T10:05:08Z
+date: "2025-07-02T10:05:08Z"
 draft: false
 kompetenzbaender:
   - id: A

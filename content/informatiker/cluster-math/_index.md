@@ -3,7 +3,7 @@ aliases:
   - /cluster-math/
   - /v2/cluster-math/
 title: "Cluster Mathematik"
-date: 2017-10-17T15:26:15Z
+date: "2017-10-17T15:26:15Z"
 draft: false
 weight: 15
 ---

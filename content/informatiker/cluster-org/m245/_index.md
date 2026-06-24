@@ -5,7 +5,7 @@ aliases:
 title: M245 Innovative ICT-Lösungen umsetzen
 modul: m245
 cluster: cluster-org
-date: 2025-07-02T10:06:02Z
+date: "2025-07-02T10:06:02Z"
 draft: false
 kompetenzbaender:
   - id: A

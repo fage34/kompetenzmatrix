@@ -5,7 +5,7 @@ aliases:
 title: M164 Datenbanken erstellen und Daten einfügen
 modul: m164
 cluster: cluster-data
-date: 2025-07-02T10:05:23Z
+date: "2025-07-02T10:05:23Z"
 draft: false
 kompetenzbaender:
   - id: A

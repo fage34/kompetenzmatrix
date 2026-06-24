@@ -5,7 +5,7 @@ aliases:
 title: M145 Netzwerk betreiben und erweitern
 modul: m145
 cluster: cluster-platform
-date: 2025-07-02T10:41:28Z
+date: "2025-07-02T10:41:28Z"
 draft: false
 kompetenzbaender:
   - id: A

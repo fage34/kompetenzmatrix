@@ -5,7 +5,7 @@ aliases:
 title: MA1
 modul: ma1
 cluster: cluster-math
-date: 2025-07-02T10:05:58Z
+date: "2025-07-02T10:05:58Z"
 draft: false
 idorder: lvl_num
 kompetenzbaender:

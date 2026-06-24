@@ -5,7 +5,7 @@ aliases:
 title: M162 Daten analysieren und modellieren
 modul: m162
 cluster: cluster-data
-date: 2025-07-02T10:05:24Z
+date: "2025-07-02T10:05:24Z"
 draft: false
 kompetenzbaender:
   - id: A

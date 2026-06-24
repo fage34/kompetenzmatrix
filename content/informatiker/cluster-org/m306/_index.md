@@ -5,7 +5,7 @@ aliases:
 title: M306 Kleinprojekte im eigenen Berufsumfeld abwickeln
 modul: m306
 cluster: cluster-org
-date: 2025-07-02T10:06:05Z
+date: "2025-07-02T10:06:05Z"
 draft: false
 kompetenzbaender:
   - id: A

@@ -5,7 +5,7 @@ aliases:
 title: M426 Software mit agilen Methoden entwickeln
 modul: m426
 cluster: cluster-api
-date: 2025-07-02T10:04:57Z
+date: "2025-07-02T10:04:57Z"
 draft: false
 kompetenzbaender:
   - id: A

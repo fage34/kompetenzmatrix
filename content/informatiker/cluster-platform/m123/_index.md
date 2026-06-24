@@ -5,7 +5,7 @@ aliases:
 title: M123 Serverdienste in Betrieb nehmen
 modul: m123
 cluster: cluster-platform
-date: 2025-07-02T10:06:47Z
+date: "2025-07-02T10:06:47Z"
 draft: false
 kompetenzbaender:
   - id: A

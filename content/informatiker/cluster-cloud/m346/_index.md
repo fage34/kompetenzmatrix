@@ -5,7 +5,7 @@ aliases:
 title: M346 Cloudlösungen konzipieren und realisieren
 modul: m346
 cluster: cluster-cloud
-date: 2025-07-02T10:05:14Z
+date: "2025-07-02T10:05:14Z"
 draft: false
 kompetenzbaender:
   - id: A

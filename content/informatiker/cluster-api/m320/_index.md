@@ -5,7 +5,7 @@ aliases:
 title: M320 Objektorientiert Programmieren
 modul: m320
 cluster: cluster-api
-date: 2025-07-02T10:05:07Z
+date: "2025-07-02T10:05:07Z"
 draft: false
 kompetenzbaender:
   - id: A

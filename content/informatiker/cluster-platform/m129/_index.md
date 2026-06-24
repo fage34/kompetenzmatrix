@@ -5,7 +5,7 @@ aliases:
 title: M129 LAN-Komponenten in Betrieb nehmen
 modul: m129
 cluster: cluster-platform
-date: 2025-07-02T10:06:40Z
+date: "2025-07-02T10:06:40Z"
 draft: false
 kompetenzbaender:
   - id: A

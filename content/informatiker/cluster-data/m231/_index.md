@@ -5,7 +5,7 @@ aliases:
 title: M231 Datenschutz und Datensicherheit anwenden
 modul: m231
 cluster: cluster-data
-date: 2025-07-02T10:05:21Z
+date: "2025-07-02T10:05:21Z"
 draft: false
 kompetenzbaender:
   - id: A

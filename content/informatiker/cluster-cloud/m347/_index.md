@@ -5,7 +5,7 @@ aliases:
 title: M347 Dienst mit Container anwenden
 modul: m347
 cluster: cluster-cloud
-date: 2025-07-02T10:05:13Z
+date: "2025-07-02T10:05:13Z"
 draft: false
 kompetenzbaender:
   - id: A
