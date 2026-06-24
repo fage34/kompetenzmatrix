@@ -2,7 +2,7 @@
 title: "Kompetenzmatrizen ICT-Module"
 ---
 
-# Kompetenzmatrizes der ICT-Module - Version 2
+# Kompetenzmatrizen der ICT-Module
 
 Öffentlich zugängliche Kompetenzmatrizen des Projekt Modulentwicklung ZH für die ICT-Module der Fachrichtungen Applikationsentwicklung und Plattformentwicklung nach BiVo2021
 
