@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://kompetenzmatrix.ch/schema/module.schema.json",
   "title": "Kompetenzmatrix-Modul",
-  "description": "Frontmatter schema for content/<cluster>/<module>/_index.md. Enforced by scripts/validate_modules.py.",
+  "description": "Frontmatter schema for content/<fachrichtung>/<cluster>/<module>/_index.md. Enforced by scripts/validate_modules.py (plus a raw-HTML/XSS body check the script adds on top).",
   "type": "object",
   "required": ["title", "modul", "cluster"],
   "properties": {

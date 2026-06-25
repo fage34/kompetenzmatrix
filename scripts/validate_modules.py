@@ -3,9 +3,11 @@
 
 Enforces the EHB rules on every module matrix
 content/<fachrichtung>/<cluster>/<module>/_index.md:
+  - every module needs title, modul and cluster (modul matches ^m?[a-z]*[0-9]+$)
+  - idorder, if present, must be num_lvl or lvl_num
   - non-ÜK modules must have at least one Kompetenzband
   - every band needs id (uppercase) + titel + at least one Kompetenz
-  - every Kompetenz needs nr, hz, and all three levels (Grundlagen/Fortgeschritten/Erweitert)
+  - every Kompetenz needs nr (integer >= 1), hz, and all three levels (Grundlagen/Fortgeschritten/Erweitert)
   - every level text must start with "Ich kann"
   - the markdown body must not contain raw HTML XSS sinks (goldmark runs with
     unsafe=true and content is open-authoring, so a merged <script> would be stored XSS)
@@ -16,6 +18,8 @@ import yaml
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LEVELS = ('grundlagen', 'fortgeschritten', 'erweitert')
+MODUL_RE = re.compile(r'^m?[a-z]*[0-9]+$')
+IDORDER = ('num_lvl', 'lvl_num')
 # Raw-HTML sinks that enable stored XSS when rendered with goldmark unsafe=true.
 DANGEROUS_HTML = re.compile(r'<\s*(script|iframe|object|embed|svg|style|form|meta|link|base)\b'
                             r'|javascript:|\son[a-z]+\s*=', re.I)
@@ -38,11 +42,20 @@ def check(path):
         return [f"{rel}: no YAML frontmatter"]
     if body and DANGEROUS_HTML.search(body):
         errs.append(f"{rel}: body contains raw HTML/script (possible stored XSS) — remove it")
+    # Required metadata on every module, ÜK or not.
+    for field in ('title', 'modul', 'cluster'):
+        if not fm.get(field):
+            errs.append(f"{rel}: missing {field}")
+    if fm.get('modul') and not MODUL_RE.match(str(fm['modul'])):
+        errs.append(f"{rel}: modul {fm['modul']!r} must match {MODUL_RE.pattern}")
+    if 'idorder' in fm and fm['idorder'] not in IDORDER:
+        errs.append(f"{rel}: idorder {fm['idorder']!r} must be one of {IDORDER}")
     if fm.get('uek'):
-        return []  # ÜK modules legitimately have no matrix
+        return errs  # ÜK modules legitimately have no matrix
     baender = fm.get('kompetenzbaender')
     if not baender:
-        return [f"{rel}: no kompetenzbaender (set uek: true if this is an ÜK module)"]
+        errs.append(f"{rel}: no kompetenzbaender (set uek: true if this is an ÜK module)")
+        return errs
     for b in baender:
         bid = b.get('id', '?')
         if not re.match(r'^[A-Z]+$', str(b.get('id', ''))):
@@ -54,8 +67,10 @@ def check(path):
             errs.append(f"{rel}: band {bid} has no kompetenzen")
         for k in komps:
             nr = k.get('nr')
-            if not isinstance(nr, int):
+            if not isinstance(nr, int) or isinstance(nr, bool):
                 errs.append(f"{rel}: band {bid} kompetenz nr {nr!r} must be an integer")
+            elif nr < 1:
+                errs.append(f"{rel}: band {bid} kompetenz nr {nr} must be >= 1")
             # hz (Handlungsziele) may legitimately be empty for some rows — not required
             for lvl in LEVELS:
                 txt = (k.get(lvl) or '').strip()
