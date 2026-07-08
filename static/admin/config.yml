@@ -132,10 +132,21 @@ collections:
     identifier_field: title
     fields: *modulfelder
 
-  - name: media-av
-    label: "Mediamatik – Audiovisuelle Produktion"
+  - name: media-film-fotografie
+    label: "Mediamatik – Film & Fotografie"
     label_singular: "Modul"
-    folder: content/mediamatiker/cluster-av
+    folder: content/mediamatiker/cluster-film-fotografie
+    path: "{{fields.modul}}/_index"
+    extension: md
+    format: yaml-frontmatter
+    create: true
+    identifier_field: title
+    fields: *modulfelder
+
+  - name: media-animation
+    label: "Mediamatik – Animation"
+    label_singular: "Modul"
+    folder: content/mediamatiker/cluster-animation
     path: "{{fields.modul}}/_index"
     extension: md
     format: yaml-frontmatter
@@ -165,19 +176,8 @@ collections:
     identifier_field: title
     fields: *modulfelder
 
-  - name: media-ict
-    label: "Mediamatik – ICT & Applikationen"
-    label_singular: "Modul"
-    folder: content/mediamatiker/cluster-ict
-    path: "{{fields.modul}}/_index"
-    extension: md
-    format: yaml-frontmatter
-    create: true
-    identifier_field: title
-    fields: *modulfelder
-
   - name: media-betrieb
-    label: "Mediamatik – Betriebswirtschaft & Administration"
+    label: "Mediamatik – Betriebskommunikation & Administration"
     label_singular: "Modul"
     folder: content/mediamatiker/cluster-betrieb
     path: "{{fields.modul}}/_index"

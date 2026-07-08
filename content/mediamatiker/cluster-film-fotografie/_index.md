@@ -1,9 +1,9 @@
 ---
-title: "ICT & Applikationen"
-weight: 60
+title: "Film & Fotografie"
+weight: 30
 ---
 
-# ICT & Applikationen
+# Film & Fotografie
 
 {{% notice info %}}
 **Entwurf.** Module und Kompetenzbänder für diesen Cluster werden noch erfasst.

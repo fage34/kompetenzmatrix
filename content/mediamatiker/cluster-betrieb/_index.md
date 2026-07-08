@@ -1,9 +1,9 @@
 ---
-title: "Betriebswirtschaft & Administration"
+title: "Betriebskommunikation & Administration"
 weight: 70
 ---
 
-# Betriebswirtschaft & Administration
+# Betriebskommunikation & Administration
 
 {{% notice info %}}
 **Entwurf.** Module und Kompetenzbänder für diesen Cluster werden noch erfasst.

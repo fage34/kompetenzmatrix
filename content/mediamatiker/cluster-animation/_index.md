@@ -1,9 +1,9 @@
 ---
-title: "Audiovisuelle Produktion"
-weight: 30
+title: "Animation"
+weight: 35
 ---
 
-# Audiovisuelle Produktion
+# Animation
 
 {{% notice info %}}
 **Entwurf.** Module und Kompetenzbänder für diesen Cluster werden noch erfasst.
